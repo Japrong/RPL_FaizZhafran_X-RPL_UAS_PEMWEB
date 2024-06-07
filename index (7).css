@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: poppins, sans-serif;
+    }
+  
+    .container {
+    width: 90%;
+    margin-inline: auto;
+    }
+    
+  
+  
+    .navigation {
+    width: 100%;
+    padding: 1px 0 1px 0;
+    background-color: black;
+    }
+  
+    .navigation .box-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+  
+  .navigation .box-navigation .box  img{
+    width: 100px;
+  }
+  
+  .navigation .box-navigation .box:nth-child(1) h1 {
+    font-size: 38px;
+    color: white;
+  }
+  
+  .navigation .box-navigation .box:nth-child(2) ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navigation .box-navigation .box:nth-child(2) ul li {
+    list-style-type: none;
+    margin-left: 40px;
+  }
+  
+  .navigation .box-navigation .box:nth-child(2) ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+  
+  .navigation .box-navigation .box:nth-child(2) ul li a:hover {
+    color: greenyellow;
+  }
+  
+  .navigation .box-navigation .box:nth-child(3) {
+    display: none;
+  }
+  
+  .navigation .box-navigation .box:nth-child(2) ul li i {
+    display: none;
+  }
+
+/* ======= Kontak Section ======= */
+.kontak {
+    padding: 60px 0;
+    background: #f9f9f9;
+  }
+  
+  .kontak .section-kontak h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .kontak .section-kontak h2 span {
+    color: #d9232d;
+  }
+  
+  .kontak .info-wrap {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0 30px rgba(127, 137, 161, 0.3);
+  }
+  
+  .kontak .info {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .kontak .info i {
+    font-size: 20px;
+    color: #d9232d;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  
+  .kontak .info h4 {
+    font-size: 20px;
+    color: #111;
+    font-weight: 600;
+  }
+  
+  .kontak .info p {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .kontak .php-email-form {
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0 30px rgba(127, 137, 161, 0.3);
+  }
+  
+  .kontak .php-email-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .kontak .php-email-form input, 
+  .kontak .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .kontak .php-email-form button[type=submit] {
+    background: #d9232d;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  
+  .kontak .php-email-form button[type=submit]:hover {
+    background: #e34c4c;
+  }
+  
+  .kontak .php-email-form .loading {
+    display: none;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+  }
+  
+  .kontak .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .kontak .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #1c9c23;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .kontak .map iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+  }
+  
